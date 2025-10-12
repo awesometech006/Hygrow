@@ -1,0 +1,16 @@
+/* src/index.css */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* --- GLOBAL RESET: Ensure body/html have no default margins/padding --- */
+@layer base {
+  body {
+    /* Prevent horizontal scrollbar flash and ensure smooth scrolling */
+    overflow-x: hidden; 
+  }
+}
+
+/* --- Custom Reusable Classes (Remainder of file remains the same) --- */
+/* ... (Your existing @layer components definition) ... */
