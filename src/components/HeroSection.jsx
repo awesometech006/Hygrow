@@ -20,12 +20,13 @@ const HeroSection = () => {
         </p>
 
         <div className="flex justify-center lg:justify-start gap-3 sm:gap-5 flex-wrap">
-          <button className={`${themeClasses.btnPrimary} text-sm sm:text-base ${themeClasses.textMuted}`} aria-label="Find nearest Hygrow Helmet Cleaning Kiosk">
+          {/* <button className={`${themeClasses.btnPrimary} text-sm sm:text-base ${themeClasses.textMuted}`} aria-label="Find nearest Hygrow Helmet Cleaning Kiosk">
             Find a Kiosk Near You
-          </button>
+          </button> */}
 
           <button className={`btn-secondary text-sm sm:text-base ${themeClasses.textMuted}`}>
-            How It Works
+            
+            <a href='#how-it-works'>How It Works</a>
           </button>
         </div>
       </div>

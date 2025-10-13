@@ -7,6 +7,7 @@ import HeroSection from './components/HeroSection';
 import FeatureCards from './components/FeatureCards'; 
 import HowItWorks from './components/HowItWorks';
 import HelperMachines from './components/HelperMachines';
+import HelmetBenefits from './components/HelmetBenefits.jsx';
 import Locations from './components/Locations';
 import ContactForm from './components/ContactForm';
 import Footer from './components/Footer';
@@ -18,8 +19,9 @@ const HomeLayout = () => (
     <HeroSection />
     <FeatureCards />
     <HowItWorks />
+    <HelmetBenefits /> 
     <HelperMachines />
-    <Locations />
+    {/* <Locations /> */}
     <ContactForm />
   </main>
 );

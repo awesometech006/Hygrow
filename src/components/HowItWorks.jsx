@@ -13,7 +13,7 @@ const helmetCleanerSteps = [
   {
     number: 2,
     title: 'Make Payment',
-    description: 'Tap your credit card or use your mobile wallet for a quick and contactless payment.'
+    description: 'Put the coin token into the coin acceptor.'
   },
   {
     number: 3,
@@ -71,12 +71,12 @@ const HowItWorks = () => {
         ))}
       </div>
 
-      <button
+      {/* <button
         className={`mt-6 md:mt-10 ${themeClasses.btnPrimary}`}
         aria-label="Watch a demonstration video of the helmet cleaning process"
       >
         Watch the Demo Video
-      </button>
+      </button> */}
     </section>
   );
 };

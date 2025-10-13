@@ -17,8 +17,8 @@ const Footer = () => {
                     
                     <div className="md:w-1/3">
                         <h4 className={`text-base font-semibold mb-4 ${footerHeading}`}>About Hygrow</h4>
-                        <p className={`text-xs ${footerText}`}>Revolutionizing vehicle maintenance with eco-friendly, self-service washing systems across Singapore.</p>
-                        <p className={`text-xs mt-2 ${footerText}`}>UEN: {companyInfo.uen}</p>
+                        <p className={`text-xs ${footerText}`}>Revolutionizing vehicle maintenance with eco-friendly, self-service washing systems across Chennai.</p>
+                        {/* <p className={`text-xs mt-2 ${footerText}`}>UEN: {companyInfo.uen}</p> */}
                     </div>
 
                     <div className="md:w-1/3">
@@ -36,8 +36,13 @@ const Footer = () => {
 
                     <div className="md:w-1/3">
                         <h4 className={`text-base font-semibold mb-4 ${footerHeading}`}>Contact & Info</h4>
-                        <p className={`text-xs ${footerText}`}>Email: {companyInfo.email}</p>
-                        <p className={`text-xs ${footerText}`}>Address: {companyInfo.address}</p>
+                        <p className={`text-xs ${footerText}`}>
+                            Email: <a href={`mailto:${companyInfo.email}`} className="underline">{companyInfo.email}</a>
+                        </p>
+                        <p className={`text-xs ${footerText}`}>
+                            Mobile No: <a href={`tel:${companyInfo.number}`} className="underline">{companyInfo.number}</a>
+                        </p>
+
                     </div>
 
                 </div>

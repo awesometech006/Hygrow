@@ -15,11 +15,11 @@ export const featuresData = [
         icon: '💧',
         alt: 'Water droplet icon'
     },
-    { 
-        title: "70+ Locations", 
-        description: "Conveniently located in HDB carparks across Singapore, a quick wash is always just around the corner.",
-        icon: '📍',
-        alt: 'Location pin icon'
+    {
+        title: "Deep Sanitization",
+        description: "Our multi-step process eliminates 99.9% of bacteria and germs, neutralizing odors from sweat and grime for a truly fresh and hygienic feel.",
+        icon: '✨',
+        alt: 'Sparkles icon'
     },
     { 
         title: "All-in-One System", 
@@ -55,9 +55,47 @@ export const popularDistricts = ['Ang Mo Kio', 'Jalan Besar / Bendemeer', 'Kalla
 
 // Global company information for easy updates
 export const companyInfo = {
-    name: "Hygrow Singapore Pte. Ltd.",
-    email: "info@hygrow.com.sg",
-    address: "7030 Ang Mo Kio Ave 5, Singapore",
+    name: "Hygrow Chennai",
+    email: "hygienegrow@gmail.com",
+    number: "+91 73975 19988",
     uen: "202238853N",
-    whatsappNumber: "6591234567"
+    whatsappNumber: "+917397519988"
+};
+
+
+
+export const helmetBenefits = {
+    title: "Why Clean Your Helmet? Health Benefits You’ll Feel!",
+    summary: "Disinfecting your helmet is vital for hygiene, especially in Chennai's humid climate. A clean interior protects your hair, skin, and overall comfort.",
+    sections: [
+        {
+            icon: '💆‍♂️',
+            title: 'For Hair & Scalp',
+            points: [
+                'Prevents Dandruff and Itchy Scalp: Regular use traps sweat and oil, encouraging fungus. Disinfected helmets prevent irritation.',
+                'Reduces Hair Fall: Germs and sweat buildup can block hair follicles. A clean helmet reduces friction and stress on the scalp.',
+                'Protects Hair from Breakage: Dry, fresh interiors are smoother on hair, resulting in less breakage and frizz.',
+                'Maintains Natural Hair Oil Balance: Clean helmets prevent excess oil transfer, keeping your scalp healthy.',
+            ]
+        },
+        {
+            icon: '🌸',
+            title: 'For Skin & Face',
+            points: [
+                'Prevents Acne and Pimples: Bacteria and dirt from helmet liners often cause forehead or cheek acne ("helmet acne").',
+                'Reduces Skin Rashes & Allergies: Fungal and bacterial buildup can cause itching, redness, and rashes; disinfection minimizes this risk.',
+                'Minimizes Odor Transfer: Fresh helmets prevent sweat smell from lingering on your skin and face after rides.',
+                'Prevents Fungal Infections: Lowers the risk of common skin infections and ringworm, especially crucial in humid climates.',
+            ]
+        },
+        {
+            icon: '💨',
+            title: 'Overall Comfort',
+            points: [
+                'Boosts Breathing Comfort: Fresh helmets reduce musty air, making it easier to breathe during commutes.',
+                'Improves Mental Freshness: Wearing a clean, good-smelling helmet creates a sense of well-being before and after every ride.',
+                'Safer Shared Helmet Use: Reduces transmission of germs between users in rentals, delivery fleets, or among pillion riders.',
+            ]
+        }
+    ]
 };

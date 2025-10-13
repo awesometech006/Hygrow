@@ -65,12 +65,12 @@ const HelperMachines = () => {
                 ))}
               </ul>
 
-              <button
+              {/* <button
                 className={`w-full md:w-auto px-8 py-3 text-base rounded-lg font-semibold transition duration-300 text-white bg-hygrow-blue hover:bg-hygrow-blue/90 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-hygrow-blue`}
                 aria-label={`Find a location with the ${helmetCleanerData.name}`}
               >
                 Find a Kiosk
-              </button>
+              </button> */}
             </div>
           </div>
         </div>
