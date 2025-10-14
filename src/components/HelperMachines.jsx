@@ -30,7 +30,7 @@ const HelperMachines = () => {
             The Ultimate Helmet Care Solution
           </h2>
           <p className={`text-base max-w-2xl mx-auto ${themeClasses.textMuted}`}>
-            Our state-of-the-art kiosk provides a deep clean and sanitization for your helmet in minutes, ensuring safety and freshness for every ride.
+            Our state-of-the-art kiosk provides sanitization for your helmet in minutes, ensuring safety and freshness for every ride.
           </p>
         </div>
 
