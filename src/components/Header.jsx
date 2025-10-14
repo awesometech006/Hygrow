@@ -72,12 +72,12 @@ const Header = () => {
 
       {/* Controls & CTA */}
       <div className="flex space-x-3 items-center">
-        <button
+        {/* <button
           className={`hidden sm:block ${themeClasses.btnPrimary} px-3 py-2 text-sm`}
           aria-label="Find a vehicle wash location near you"
         >
           Contact Us
-        </button>
+        </button> */}
 
         {/* <button
           onClick={toggleTheme}
