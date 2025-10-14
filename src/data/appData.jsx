@@ -99,3 +99,28 @@ export const helmetBenefits = {
         }
     ]
 };
+
+// src/data/appData.js (Add this at the bottom)
+
+export const faqData = [
+    {
+        question: "How does the helmet cleaning machine work?",
+        answer: "Our machine uses a multi-stage process to ensure your helmet is thoroughly cleaned and sanitized. It combines ozone sterilization, UV light, a gentle, safe detergent, and heat drying. This powerful combination removes 99.9% of bacteria, leaving your helmet fresh and clean."
+    },
+    {
+        question: "What types of helmets can I clean in the machine?",
+        answer: "Our machine is designed to clean a wide variety of helmets. However, we always recommend checking your helmet manufacturer's specific cleaning instructions before using our service to ensure compatibility."
+    },
+    {
+        question: "Is this cleaning process environmentally friendly?",
+        answer: "Yes! We've designed our process to be as eco-friendly as possible. We use minimal chemicals, an energy-efficient low-temperature drying process, and reduce waste by eliminating the need for disposable wipes and sprays."
+    },
+    {
+        question: "How much does a helmet cleaning cost?",
+        answer: "A complete helmet wash and sanitization cycle costs 5 SGD."
+    },
+    {
+        question: "How long does the cleaning process take?",
+        answer: "You'll have a fresh, clean, and dry helmet ready to wear in just 8 minutes!"
+    }
+];

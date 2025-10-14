@@ -13,6 +13,7 @@ import ContactForm from './components/ContactForm';
 import Footer from './components/Footer';
 import WhatsAppButton from './components/WhatsAppButton'; 
 import { useTheme } from './context/ThemeContext.jsx';
+import FAQSection from './components/FAQSection.jsx';
 
 const HomeLayout = () => (
   <main>
@@ -22,7 +23,9 @@ const HomeLayout = () => (
     <HelmetBenefits /> 
     <HelperMachines />
     {/* <Locations /> */}
+    
     <ContactForm />
+    <FAQSection /> 
   </main>
 );
 
