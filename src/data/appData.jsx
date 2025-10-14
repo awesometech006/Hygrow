@@ -2,10 +2,14 @@
 
 export const navigationLinks = [
     { name: 'Home', path: '/' },
-    { name: 'Systems', path: '/systems' },
-    { name: 'Locations', path: '/locations' },
-    { name: 'About Us', 'path': '/about' },
-    { name: 'Contact', path: '/contact' },
+    { name: 'Why Hygrow', path: '#features'},
+    { name: 'How It Works', path: '#how-it-works'},
+    { name: 'Benefits', path: '#helmet-benefits'},
+    { name: 'Our Solution', path: '#featured-product'},
+    // { name: 'Systems', path: '/systems' },
+    // { name: 'Locations', path: '/locations' },
+    // { name: 'About Us', 'path': '/about' },
+    { name: 'Contact', path: '#contact' },
 ];
 
 export const featuresData = [
@@ -21,12 +25,12 @@ export const featuresData = [
         icon: '✨',
         alt: 'Sparkles icon'
     },
-    { 
-        title: "All-in-One System", 
-        description: "Features include Water Jet, Foam, Vacuum, Blower, and Hand Washing options, providing a complete clean.",
-        icon: '🧼',
-        alt: 'Soap icon'
-    },
+    // { 
+    //     title: "All-in-One System", 
+    //     description: "Features include Water Jet, Foam, Vacuum, Blower, and Hand Washing options, providing a complete clean.",
+    //     icon: '🧼',
+    //     alt: 'Soap icon'
+    // },
 ];
 
 export const howItWorksSteps = [
@@ -40,7 +44,7 @@ export const productData = [
     {
         name: "Hygrow Helmet Cleaning System",
         image: "/helmet-cleaner.jpg",
-        description: "Our state-of-the-art Helmet Cleaning Machine offers deep cleaning and sanitization, keeping your safety gear fresh and hygienic.",
+        description: "Our state-of-the-art Helmet Cleaning Machine offers sanitization, keeping your safety gear fresh and hygienic.",
         features: ["Deep UVC Sanitization", "Quick Dry Feature", "Removes Odors and Bacteria"]
     },
     {
