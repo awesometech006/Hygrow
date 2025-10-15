@@ -52,7 +52,7 @@ const HowItWorks = () => {
   const { themeClasses } = useTheme();
 
   return (
-    <section id="how-it-works" className={`py-12 section-padding text-center ${themeClasses.bgDefault}`}>
+    <section id="how-it-works" className={`py-12 px-5 section-padding text-center ${themeClasses.bgDefault}`}>
       <h2 className={`text-2xl md:text-3xl lg:text-4xl font-bold mb-2 ${themeClasses.textDefault}`}>
         A Fresh Helmet in 4 Simple Steps
       </h2>
