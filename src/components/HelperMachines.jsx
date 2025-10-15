@@ -23,7 +23,7 @@ const HelperMachines = () => {
   }
 
   return (
-    <section id="featured-product" className={`py-16 section-padding ${themeClasses.bgSecondary}`}>
+    <section id="featured-product" className={`py-16 px-5 section-padding ${themeClasses.bgSecondary}`}>
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-12">
           <h2 className={`text-2xl md:text-3xl lg:text-4xl font-bold mb-3 ${themeClasses.textDefault}`}>
