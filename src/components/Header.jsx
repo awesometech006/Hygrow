@@ -115,14 +115,14 @@ const Header = () => {
                   )}
                 </li>
               ))}
-              <li>
+              {/* <li>
                 <button
                   className={`w-full mt-2 ${themeClasses.btnPrimary} py-2`}
                   onClick={() => setIsMenuOpen(false)}
                 >
                   Find a Location
                 </button>
-              </li>
+              </li> */}
             </ul>
           </nav>
         </div>

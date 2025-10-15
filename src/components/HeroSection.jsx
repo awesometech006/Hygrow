@@ -11,7 +11,7 @@ const HeroSection = () => {
     <section id="home" className={`px-4 section-padding flex flex-col lg:flex-row items-center gap-10 min-h-[450px] ${themeClasses.bgSecondary} overflow-hidden`}>
 
       {/* Text Content */}
-      <div className="flex-1 max-w-xl text-center lg:text-left">
+      <div className="pl-12 flex-1 max-w-xl text-center lg:text-left">
         <h1 className={`text-4xl md:text-5xl lg:text-5xl font-extrabold mb-4 leading-tight ${themeClasses.textDefault}`}>
           A Revolution in Helmet Hygiene
         </h1>
@@ -24,7 +24,7 @@ const HeroSection = () => {
             Find a Kiosk Near You
           </button> */}
 
-          <button className={`btn-secondary text-sm sm:text-base ${themeClasses.textMuted}`}>
+          <button className={`btn-white text-white bg-blue-500 px-4 py-2 border border-blue-500 rounded text-sm sm:text-base ${themeClasses.textMuted}`}>
             
             <a href='#how-it-works'>How It Works</a>
           </button>
@@ -32,7 +32,7 @@ const HeroSection = () => {
       </div>
 
       {/* Image Content */}
-      <div className="flex-1 w-full flex justify-center lg:justify-end mt-8 lg:mt-0">
+      <div className="flex-1 w-full flex justify-center lg:justify-center mt-8 lg:mt-0">
         <img
           src={HelperMachine}
           alt="Hygrow Helmet Cleaning Kiosk"
