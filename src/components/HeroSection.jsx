@@ -8,7 +8,7 @@ const HeroSection = () => {
   const { themeClasses } = useTheme();
 
   return (
-    <section id="home" className={`px-4 section-padding flex flex-col lg:flex-row items-center gap-10 min-h-[450px] ${themeClasses.bgSecondary} overflow-hidden`}>
+    <section id="home" className={`px-4 px-5 section-padding flex flex-col lg:flex-row items-center min-h-[450px] ${themeClasses.bgSecondary} overflow-hidden`}>
 
       {/* Text Content */}
       <div className="flex-1 max-w-xl text-center lg:text-left">
