@@ -38,7 +38,7 @@ const ContactForm = () => {
     : 'bg-gray-700 border-gray-600 text-gray-200';
 
   return (
-    <section id="contact" className={`py-12 section-padding text-center ${themeClasses.bgSecondary}`}>
+    <section id="contact" className={`py-12 px-5 section-padding text-center ${themeClasses.bgSecondary}`}>
       <h2 className={`text-2xl md:text-3xl lg:text-4xl font-bold mb-2 ${themeClasses.textDefault}`}>
         Get In Touch
       </h2>
