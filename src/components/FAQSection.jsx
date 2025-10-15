@@ -45,7 +45,7 @@ const FAQSection = () => {
     };
 
     return (
-        <section id="faq" className={`pb-12 section-padding flex items-center justify-center ${themeClasses.bgSecondary}`}>
+        <section id="faq" className={`pb-12 px-5 section-padding flex items-center justify-center ${themeClasses.bgSecondary}`}>
             <div className={`w-full max-w-4xl mx-auto rounded-2xl shadow-xl p-6 md:p-10 ${themeClasses.card}`}>
                 <h2 className={`text-3xl md:text-4xl font-bold text-center ${themeClasses.textDefault} mb-3`}>
                     Frequently Asked Questions
