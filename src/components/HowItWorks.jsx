@@ -7,23 +7,23 @@ import { useTheme } from '../context/ThemeContext.jsx';
 const helmetCleanerSteps = [
   {
     number: 1,
-    title: 'Place Your Helmet',
-    description: 'Open the secure chamber and place your helmet onto the designated holder inside.'
+    title: '1. Start Button',
+    description: 'Select the Start button on the display to begin the process.'
   },
   {
     number: 2,
     title: 'Make Payment',
-    description: 'Put the coin token into the coin acceptor.'
+    description: 'Choose your preferred payment method and complete the payment.'
   },
   {
     number: 3,
-    title: 'Start The Cycle',
-    description: 'Close the door and press the start button to begin the automated cleaning & sanitization process.'
+    title: '3. Place the Helmet',
+    description: 'Once the payment is confirmed, the cabinet lock will release. Place your helmet inside and securely lock the cabinet.'
   },
   {
     number: 4,
     title: 'Collect & Go',
-    description: 'In under 10 minutes, the cycle will finish. Collect your fresh, clean, and ready-to-wear helmet.'
+    description: 'Once the cleaning is done, the lock will be released. Collect your clean, fresh, and ready-to-wear helmet, and you’re good to go!'
   }
 ];
 

@@ -14,23 +14,41 @@ export const navigationLinks = [
 
 export const featuresData = [
     { 
-        title: "80-90% Water Saving", 
-        description: "Our advanced technology uses minimal water compared to traditional car wash methods, making us the eco-friendly choice.",
-        icon: '💧',
+        title: "Fragrance", 
+        description: "Say goodbye to lingering odors and airborne contaminants. The Beaver Helmet Wash, designed with efficiency in mind, offers excellent value for its helmet cleaning machine price while actively sanitizes the air within the system, providing fresh, breathable helmets in every cycle.",
+        icon: '👃🌬️✨',
         alt: 'Water droplet icon'
     },
     {
-        title: "Deep Sanitization",
-        description: "Our multi-step process eliminates 99.9% of bacteria and germs, neutralizing odors from sweat and grime for a truly fresh and hygienic feel.",
-        icon: '✨',
+        title: "Comprehensive Sterilization",
+        description: "Leave no germ untouched. The helmet spa’s dual-action heat drying and UV light eliminate moisture and hidden bacteria, preventing mold growth and ensuring total sanitation.",
+        icon: '✨🛡️',
         alt: 'Sparkles icon'
     },
-    // { 
-    //     title: "All-in-One System", 
-    //     description: "Features include Water Jet, Foam, Vacuum, Blower, and Hand Washing options, providing a complete clean.",
-    //     icon: '🧼',
-    //     alt: 'Soap icon'
-    // },
+    { 
+        title: "Cashless Convenience", 
+        description: "Skip the lines and simplify billing. The Beaver Helmet Wash integrates helmet cleaning seamlessly with cashless payment systems for smooth and efficient operation.",
+        icon: '💳📱💨',
+        alt: 'Soap icon'
+    },
+    {
+        title: "99.9% Bacterial Removal",
+        description: "Our Helmet cleaner machine uses a powerful combination of ozone sterilization and UV light technology eliminates virtually all harmful bacteria, ensuring a safe and hygienic environment for your people.",
+        icon: '🦠🧼✅',
+        alt: 'Soap icon'
+    },
+    {
+        title: "Safe Detergent",
+        description: "Powerful cleaning doesn’t have to be harsh. Our motorcycle helmet cleaning machine uses a specially formulated detergent that tackles grime and sweat without compromising helmet integrity or user safety. Gentle on materials, tough on dirt.",
+        icon: '🧼🍃👍',
+        alt: 'Soap icon'
+    },
+    {
+        title: "Efficient Drying",
+        description: "Get your helmets back in action fast. Our cleaning machine with a rapid drying system minimizes downtime and keeps your crew working safely.",
+        icon: '🌬️⏱️⚡',
+        alt: 'Soap icon'
+    },
 ];
 
 export const howItWorksSteps = [
@@ -78,16 +96,13 @@ export const helmetBenefits = {
             points: [
                 'Prevents Dandruff and Itchy Scalp: Regular use traps sweat and oil, encouraging fungus. Disinfected helmets prevent irritation.',
                 'Reduces Hair Fall: Germs and sweat buildup can block hair follicles. A clean helmet reduces friction and stress on the scalp.',
-                'Protects Hair from Breakage: Dry, fresh interiors are smoother on hair, resulting in less breakage and frizz.',
-                'Maintains Natural Hair Oil Balance: Clean helmets prevent excess oil transfer, keeping your scalp healthy.',
             ]
+                
         },
         {
             icon: '🌸',
             title: 'For Skin & Face',
             points: [
-                'Prevents Acne and Pimples: Bacteria and dirt from helmet liners often cause forehead or cheek acne ("helmet acne").',
-                'Reduces Skin Rashes & Allergies: Fungal and bacterial buildup can cause itching, redness, and rashes; disinfection minimizes this risk.',
                 'Minimizes Odor Transfer: Fresh helmets prevent sweat smell from lingering on your skin and face after rides.',
                 'Prevents Fungal Infections: Lowers the risk of common skin infections and ringworm, especially crucial in humid climates.',
             ]
@@ -126,5 +141,9 @@ export const faqData = [
     {
         question: "How long does the cleaning process take?",
         answer: "You'll have a fresh, clean, and dry helmet ready to wear in just 8 minutes!"
+    },
+    {
+        question: "Do you provide franchise opportunities?",
+        answer: "No, we don’t provide franchise opportunities as of now. We will be planning for it in the future, and all updates will be shared on this website only."
     }
 ];
