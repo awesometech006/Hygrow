@@ -18,7 +18,7 @@ import FAQSection from './components/FAQSection.jsx';
 const HomeLayout = () => (
   <main>
     <HeroSection />
-    <FeatureCards />
+    {/* <FeatureCards /> */}
     <HowItWorks />
     <HelmetBenefits /> 
     <HelperMachines />
