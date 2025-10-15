@@ -1,7 +1,7 @@
 // src/data/appData.js
 
 export const navigationLinks = [
-    { name: 'Home', path: '/' },
+    { name: 'Home', path: '#home' },
     // { name: 'Why Hygrow', path: '#features'},
     { name: 'How It Works', path: '#how-it-works'},
     { name: 'Benefits', path: '#helmet-benefits'},

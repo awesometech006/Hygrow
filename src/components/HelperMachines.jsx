@@ -38,7 +38,7 @@ const HelperMachines = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 items-center">
 
             {/* Image Placeholder Column */}
-            <div className="w-full h-64 lg:h-full min-h-[300px] bg-gray-200 dark:bg-gray-700 flex items-center justify-center">
+            <div className="w-full min-h-[300px] md:min-h-0 lg:h-full min-h-[300px] bg-gray-200 dark:bg-gray-700 flex items-center justify-center">
               <img
                 src={HelperMachine}
                 alt="Helmet Cleaning Machine"
