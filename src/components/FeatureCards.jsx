@@ -19,7 +19,7 @@ const FeatureCards = () => {
   const { themeClasses } = useTheme();
 
   return (
-    <section id="features" className={`pb-12 section-padding text-center ${themeClasses.bgSecondary}`}>
+    <section id="features" className={`pb-12 px-5 section-padding text-center ${themeClasses.bgSecondary}`}>
       <h2 className={`text-2xl md:text-3xl lg:text-4xl font-bold mb-10 ${themeClasses.textDefault}`}>
         Why Choose Hygrow?
       </h2>
