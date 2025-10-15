@@ -21,7 +21,7 @@ const Footer = () => {
   return (
     <footer className={`py-10 px-5 ${footerBg}`}>
       <div className="max-w-6xl mx-auto">
-        <div className="flex flex-col md:flex-row justify-between gap-8 md:gap-12 border-b border-gray-700 pb-8 text-center md:text-left">
+        <div className="flex flex-col md:flex-row justify-between gap-8 md:gap-12 border-b border-gray-700 pb-8 md:text-left">
           <div className="md:w-1/3">
             <h4 className={`text-base font-semibold mb-4 ${footerHeading}`}>
               About Hygrow
