@@ -7,7 +7,7 @@ const Locations = () => {
   const { themeClasses } = useTheme();
 
   return (
-    <section id="locations" className={`py-12 section-padding ${themeClasses.bgDefault}`}>
+    <section id="locations" className={`py-12 px-5 section-padding ${themeClasses.bgDefault}`}>
       <div className="max-w-6xl mx-auto flex flex-col lg:flex-row gap-8 lg:gap-10 items-center">
 
         <div className="flex-1 w-full text-center lg:text-left">
