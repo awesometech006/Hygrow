@@ -2,7 +2,7 @@
 
 export const navigationLinks = [
     { name: 'Home', path: '/' },
-    { name: 'Why Hygrow', path: '#features'},
+    // { name: 'Why Hygrow', path: '#features'},
     { name: 'How It Works', path: '#how-it-works'},
     { name: 'Benefits', path: '#helmet-benefits'},
     { name: 'Our Solution', path: '#featured-product'},
